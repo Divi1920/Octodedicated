@@ -5,7 +5,7 @@ function generateCode() {
 
     for (let i = 0; i < length; i++) {
         let randomIndex = Math.floor(Math.random() * characters.length);
-        code += characters[randomIndex];
+        code += characters[randomIndex==];
     }
 
     document.getElementById("output").textContent = "Your random code: " + code;
