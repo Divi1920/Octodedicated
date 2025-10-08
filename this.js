@@ -11,3 +11,4 @@ function generateCode() {
     document.getElementById("output").textContent = "Your random code: " + code;
 }
 let = 6;
+this_is=4;

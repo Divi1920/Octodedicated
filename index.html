@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="btn" onclick="openPopup()">Click Me</button>
+
+<div class="overlay" id="overlay" onclick="closePopup()"></div>
+<div class="popup" id="popup">
+  <p>Hello Divya 🌸 This is your popup!</p>
+  <button onclick="closePopup()">Close</button>
+</div>
+
+<script>
+function openPopup() {
+  document.getElementById("popup").classList.add("active");
+  document.getElementById("overlay").classList.add("active");
+}
+function closePopup() {
+  document.getElementById("popup").classList.remove("active");
+  document.getElementById("overlay").classList.remove("active");
+}
+</script>
+<script></script>
+
+</body>
+</html>
